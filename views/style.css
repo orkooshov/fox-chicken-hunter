@@ -1,0 +1,84 @@
+.fox{
+    background-color: brown;
+    background-image: url(fox.png);
+    background-size: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.chicken{
+    background-color: #11c40b;
+    background-image: url(cock.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30px;
+}
+.chicken:hover{
+    background-color: yellow;
+}
+.choosedChicken{
+    background-color: red;
+    background-image: url(coockedChicken.png);
+    background-size: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.empty:hover{
+    background-color: #dddddd;
+}
+
+.possible{
+    background-color: darkturquoise;
+}
+.possible:hover{
+    background-color: paleturquoise;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+button{
+    font-size: medium;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    /* border-radius: 20%; */
+}
+button:hover{
+    /* border-radius: 30%; */
+    transition: 0.35s;
+}
+
+.foxControls{
+    margin-left: auto;
+    margin-right: 0;
+}
+
+#gameAll{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+}
+#foxControls{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+}
+
+.chickenImg{
+    width: 30px;
+    height: 30px;
+}
+
+#fox1Controls{
+    margin-left: 50px;
+}
+
+#fox2Controls{
+    margin-left: 50px;
+}
+
+#gameTable, #gameTable td, #gameTable td{
+    border-collapse: collapse;
+    /* border: black solid 2px; */
+}
